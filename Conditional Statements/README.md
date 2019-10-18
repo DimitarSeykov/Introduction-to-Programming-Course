@@ -20,7 +20,7 @@ Tasks for Basic operations, Conditional statetemts and Logical Operators
 
 9. Biggest digit of a given 3 / 4 digit number (simpler: sum of digits) 
 
-10. Check whether 2 symbols are the lower and upper of the same letter (check if a symbol is a letter) 
+10. Check whether 2 symbols are the lower and upper of the same letter
 
 11. Check if a number is a palindrome
 
