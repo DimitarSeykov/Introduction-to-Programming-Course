@@ -8,7 +8,7 @@ Tasks for Basic operations, Conditional statetemts and Logical Operators
 
 3. Validate date (DD MM YYYY)
 
-4. Time between two hh:mm:ss
+4. You have a starting time in (hh mm ss) format and ending time in the same format. Calculate how much time has passed between the two. (Midnight is a thing) 
 
 5. Check whether a point is in a rectangle (given two diagonal points) 
 
