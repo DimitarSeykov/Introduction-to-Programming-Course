@@ -98,4 +98,5 @@ Tasks for Basic operations, Conditional statetemts and Logical Operators
 
 
 * A rectangle is defined by (x1, y1) -> top left corner and (x2, y2) -> bottom right corner.
+
 ** Assume the circle's centre is (0, 0). If you want a greater challenge, make the centre ot the circle a part of the input.
