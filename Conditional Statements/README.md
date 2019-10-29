@@ -11,6 +11,7 @@ Tasks for Basic operations, Conditional statetemts and Logical Operators
 
   1 a) 10000 -> 2 H 46 M 40 S
        130 -> 0 H 2 M 10 S
+       
   1 b) 2 46 50 -> 10010 S
 
 
