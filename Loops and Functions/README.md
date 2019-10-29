@@ -45,12 +45,18 @@ Tasks for Loops and Functions
   1111 -> 1111
   
 --------------------------------------------  
-4. Write a function that given a number N prints the closest power of 2 (the abs is minimal)
+4. Write a function that given a number N prints the closest power of 2 (the abs is minimal). N should be lesser than 1000000. Validate the input.
   
   2 -> 2
+  
   3 -> 2 or 4
+  
   37 -> 32
+  
   63 -> 64
+  
   383 -> 256
+  
   385 -> 512
+  
   1000 -> 1024
