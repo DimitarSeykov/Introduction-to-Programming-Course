@@ -3,6 +3,7 @@ Tasks for Loops and Functions
 0. Write a function that finds the Greatest Common Divisor (GCD) of two numbers. Use the Euclidean Algorithm
 
   84 24 -> 12
+  
   1000000 2 -> 2
 
 --------------------------------------------
@@ -39,10 +40,13 @@ Tasks for Loops and Functions
   
   
 --------------------------------------------  
-3. Write a funcion that returns a reversed given 4-digit number. 
+3. Write a funcion that returns a reversed given number. 
 
   1234 -> 4321
-  1111 -> 1111
+  
+  11 -> 11
+  
+  310011 -> 110013
   
 --------------------------------------------  
 4. Write a function that given a number N prints the closest power of 2 (the abs is minimal). N should be lesser than 1000000. Validate the input.
@@ -60,3 +64,14 @@ Tasks for Loops and Functions
   385 -> 512
   
   1000 -> 1024
+  
+  --------------------------------------------
+  5. Write a function that finds the average of the digits in a given number N
+  
+    3 -> 3
+    
+    120 -> 1
+    
+    9999 -> 9
+    
+    56789 -> 7
