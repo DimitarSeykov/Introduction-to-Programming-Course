@@ -1,7 +1,4 @@
 #include <iostream>
-
-#define FOR(k, n) for(int i = k; i < n; i++)
-
 using namespace std;
 
 void printOddRows(int arr[][100], int n, int m){
@@ -47,7 +44,7 @@ void printAboveMainDiagonal(int arr[][100], int n, int m){
 void printAboveSecondaryDiagonal(int arr[][100], int n){
     for(int i = 0; i < n; i++){
         for(int j = 0; j < n; j++){
-            if(i + j >= n - 1){
+            if(i + j <= n - 1){
                 cout << arr[i][j] << " ";
             } else {
                 cout << "  ";
