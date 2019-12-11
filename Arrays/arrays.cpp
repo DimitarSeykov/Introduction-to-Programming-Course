@@ -1,14 +1,26 @@
 #include <iostream>
 #include <climits>
 #include <math.h>
+#include <algorithm>
 
 using namespace std;
+
+void printArray(int* arr, int n){
+    for(int i = 0; i < n; i++){
+        cout << arr[i] << " ";
+    }
+    cout << endl;
+}
+
+void printTwoElements(int& a, int& b){
+    cout << a << " " << b << endl;
+}
 
 bool checkIfTwoElementsSum(int* arr, int n, int k){
     for(int i = 0; i < n - 1; i++){
         for(int j = i + 1; j < n; j++){
             if(arr[i] + arr[j] == k){
-                cout << i << " " << j <<endl;
+                printTwoElements(i, j);
                 return true;
             }
         }
@@ -80,6 +92,31 @@ int findMostOccuringElement(int* arr, int n){
     return mostOccuringNumber;
 }
 
+void selectionSort(int* arr, int n){
+    //temp[] was used for he idea with additional array.
+    //In that scenario, the inner for loop starts from zero
+    //All other parts of the code fro that idea are commented
+
+    //int temp[10];
+
+    for(int i = 0; i < n; i++){
+        int minVal = INT_MAX;
+        int minIdx = -1;
+        for(int j = i; j < n; j++){
+            if(arr[j] < minVal){
+                minVal = arr[j];
+                minIdx = j;
+            }
+        }
+        swap(arr[i], arr[minIdx]);
+        //temp[i] = minVal;
+        //arr[minIdx] = INT_MAX;
+    }
+    //printArray(temp, n);
+    printArray(arr, n);
+
+}
+
 int main(){
     int arr[100];
     int k, n;
@@ -91,12 +128,14 @@ int main(){
     //cout << checkIfTwoElementsSum(arr, n, k) << endl;
     //cout << findMedian(arr, n) << endl;
     //cout << minDiffFromElement(arr, n, k) << endl;
-    cout << findMostOccuringElement(arr, n) << endl;
+    //cout << findMostOccuringElement(arr, n) << endl;
+    //cout << findMostOccuringElement(arr, n) << endl;
+    selectionSort(arr, n);
 
 }
 
 /*
-    10 20
+    10
     1 2 17 22 18 12 13 -10 22 1
 */
 
