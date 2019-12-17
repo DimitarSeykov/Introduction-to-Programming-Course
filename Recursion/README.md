@@ -74,3 +74,14 @@ Write a recursive function to determine whether a given string is a palindrome.
 ```
 If N = 3 then the vectors are (0,0,0), (0,0,1), (0,1,0), (0,1,1), (1,0,0), (1,0,1), (1,1,0), (1,1,1)
 ```
+
+9. Let's look at the sequence `Look and say`: https://en.wikipedia.org/wiki/Look-and-say_sequence
+
+You are given a number `n` from that sequence. You goal is to find the starting number of the sequence and the index of the number `n` in that sequence.
+
+```
+1113122112132113  -> 123 5
+1113 -> 3 3
+111 -> 111 1
+```
+
